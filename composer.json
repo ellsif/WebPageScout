@@ -1,0 +1,22 @@
+{
+  "name": "ellsif/web-page-scout",
+  "description": "Webページの情報を取得する",
+  "keywords": ["php", "html"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/ellsif/WebPageScout",
+  "authors": [
+    {
+      "name": "ellsif",
+      "email": "hatasu@ellsif.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "6.2.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "ellsif\\WebPageScout": "src/"
+    }
+  }
+}
